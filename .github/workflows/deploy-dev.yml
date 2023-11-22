@@ -6,9 +6,9 @@ on:
       application:
         type: string
         required: true
-      xref:
-        type: string
-        required: true
+      # xref:
+      #   type: string
+      #   required: true
       ciWorkerType:
         type: choice
         required: true
