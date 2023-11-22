@@ -239,7 +239,7 @@ deploy:
           -Dcl.env.name=dev \
           -Dcl.app.name=${{ inputs.application }}-dev \
           -Dcl.region=us-east-1 \
-          -Dcl.ClientID= 'ef74a00f730b43ea985f26ab4ae57f1c'\
-          -Dcl.ClientSecret= '7859C08608b147eeAF1129578d4BAAA3'\
+          -Dcl.ClientID= '58422bd82e5f4ca7978e0661d6597ee6'\
+          -Dcl.ClientSecret= '0d4cCDB6C09a4610869e1Bfd72fcC84f'\
           -Dcl.workers=${{ inputs.ciWorker }} \
           -Dcl.worker.type=${{ inputs.ciWorkerType }}
