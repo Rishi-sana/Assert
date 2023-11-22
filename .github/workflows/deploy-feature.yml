@@ -40,7 +40,7 @@ permissions:
 
 run-name: ${{ github.workflow }} - ${{ inputs.application }} -> feature to dev
 
-# jobs:
+jobs:
   # verify-permissions:
   #   name: Verify Permissions
   #   runs-on: ubuntu-latest
