@@ -11,7 +11,7 @@ on:
         required: true
       xref:
         type: string
-        required: true
+        required: false
       ciWorkerType:
         type: choice
         required: true
@@ -110,7 +110,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ verify-permissions, ParentPomChecks]
     env:
-      XREFKEY: ${{ inputs.xref }}
+      # XREFKEY: ${{ inputs.xref }}
       ENV: dev
       JAVA_VERSION: 8
       MAVEN_VERSION: '3.6.2'
